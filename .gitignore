@@ -1,0 +1,35 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Dependencias y compilaciones
+node_modules/
+vendor/
+dist/
+build/
+.next/
+.dart_tool/
+.gradle/
+Pods/
+DerivedData/
+*.log
+
+# Datos pesados o sensibles
+*.pbf
+*.pmtiles
+*.mbtiles
+datos-reales/
+*.sqlite
+*.db
+
+# Editores y sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
